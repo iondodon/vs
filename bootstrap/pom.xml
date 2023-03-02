@@ -40,7 +40,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>org.example.vs.bootstrap.VsApplication</mainClass>
+                    <mainClass>org.example.vs.VsApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
