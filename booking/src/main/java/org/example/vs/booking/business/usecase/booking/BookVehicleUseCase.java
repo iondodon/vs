@@ -2,9 +2,9 @@ package org.example.vs.booking.business.usecase.booking;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.example.vs.booking.business.usecase.vehicle.IsAvailableForHireUseCase;
 import org.example.vs.booking.business.UseCase;
 import org.example.vs.booking.business.usecase.bookingdate.GetBookingDatesUseCase;
+import org.example.vs.booking.business.usecase.vehicle.IsAvailableForHireUseCase;
 import org.example.vs.booking.domain.entity.Booking;
 import org.example.vs.booking.domain.entity.BookingDate;
 import org.example.vs.booking.domain.entity.Customer;
