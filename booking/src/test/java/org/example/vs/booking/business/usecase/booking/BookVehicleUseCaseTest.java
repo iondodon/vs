@@ -42,7 +42,7 @@ class BookVehicleUseCaseTest {
     @Mock
     private CustomerRepository customerRepository;
     @InjectMocks
-    BookVehicleUseCase bookVehicleUseCase;
+    private BookVehicleUseCase bookVehicleUseCase;
 
     @Test
     void testResourceNotFoundExceptionIsThrown_whenVehicleNotFound() {

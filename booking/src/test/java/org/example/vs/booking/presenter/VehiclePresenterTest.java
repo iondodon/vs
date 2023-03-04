@@ -6,8 +6,8 @@ import org.example.vs.booking.business.usecase.vehicle.GetAvailableForHireUseCas
 import org.example.vs.booking.business.usecase.vehicle.GetCostOfHiringUseCase;
 import org.example.vs.booking.controller.response.AllVehiclesResponse;
 import org.example.vs.booking.controller.response.AvailableForHireResponse;
-import org.example.vs.booking.exception.VbsException;
 import org.example.vs.booking.domain.entity.Vehicle;
+import org.example.vs.booking.exception.VbsException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -20,7 +20,6 @@ import java.util.UUID;
 
 import static java.util.Collections.singletonList;
 import static java.util.UUID.randomUUID;
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
