@@ -42,6 +42,6 @@ class VehiclePresenterSpec extends Specification {
         then: "only one vehicle is returned"
         allVehicles.getVehicles().size() == 1
         and: "the UUID is correct"
-        allVehicles.getVehicles().get(0).getUuid() == vehicle.getUuid()
+        allVehicles.getVehicles().get(0).uuid == vehicle.getUuid()
     }
 }

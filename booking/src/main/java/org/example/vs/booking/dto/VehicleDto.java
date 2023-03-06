@@ -3,18 +3,18 @@ package org.example.vs.booking.dto;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Builder;
-import lombok.Value;
+import lombok.Getter;
 import org.example.vs.booking.domain.entity.Vehicle;
 import org.example.vs.booking.domain.type.FuelType;
 
 import java.util.UUID;
 
 
-@Value
+@Getter
 @Builder
 public class VehicleDto {
     @NotNull
-    private final UUID uuid;
+    public final UUID uuid;
     @NotBlank
     private final String registrationNumber;
     @NotBlank
