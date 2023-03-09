@@ -38,6 +38,7 @@ public class Booking {
             joinColumns = @JoinColumn(name = "booking_id", nullable = false),
             inverseJoinColumns = @JoinColumn(name = "bookingdate_id", nullable = false)
     )
+    @Builder.Default
     private Set<BookingDate> bookedDates = new HashSet<>();
 
     @ManyToOne
