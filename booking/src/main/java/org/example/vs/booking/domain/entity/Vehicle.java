@@ -31,7 +31,6 @@ public class Vehicle {
     @Setter(AccessLevel.NONE)
     private Long id;
 
-    //    @Type(type = "uuid-char")
     @Column(nullable = false, unique = true, length = 36)
     private UUID uuid;
 
