@@ -10,13 +10,13 @@ public class TestingService {
     private Integer a;
     @Value("${b}")
     private Integer b;
-    @Value("${c}")
-    private Integer c;
+    @Value("${d}")
+    private Integer d;
 
     @PostConstruct
     void postConstruct() {
         System.out.println("a=" + a);
         System.out.println("b=" + b);
-        System.out.println("c=" + c);
+        System.out.println("d=" + d);
     }
 }
